@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, User,Lock } from "lucide-react";
+import { Mail,Lock } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export default function SignIn() {

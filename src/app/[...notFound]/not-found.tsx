@@ -1,39 +1,5 @@
-// "use client";
-// import Link from "next/link";
-// import { useRouter } from "next/navigation";
-
-// export default function NotFoundPage() {
-//   const router = useRouter();
-
-//   return (
-//     <div >
-//       <div className="flex flex-col p-20 items-center max-w-[630px] max-h-[400px] mx-auto">
-//         <div>
-//           <h1 className="text-[#FF9F0D] text-[96px] font-bold">404</h1>
-//         </div>
-//         <div>
-//           <p className="text-[32px] text-[#333333] ">
-//             Oops! Look likes something going wrong
-//           </p>
-//         </div>
-//         <div>
-//           <p className="text-[18px] text-[#4f4f4f] text-center">
-//             Page Cannot be found! we’ll have it figured out in no time.
-//             Menwhile, cheek out these fresh ideas:
-//           </p>
-//         </div>
-//         <div className=" bg-[#FF9F0D] px-4 py-2">
-//           <button onClick={() => router.push("/")} className="">
-//             Go to home
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 "use client";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function NotFoundPage() {
