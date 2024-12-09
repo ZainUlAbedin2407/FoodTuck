@@ -33,9 +33,9 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
               <button className="hover:text-[#FF9900]">
                 <Search className="w-5 h-5" />
               </button>
-              <button className="hover:text-[#FF9900]">
+              <Link href={"/signup"} className="text-white hover:text-[#FF9900]">
                 <User className="w-5 h-5" />
-              </button>
+              </Link>
               <button className="hover:text-[#FF9900]">
                 <ShoppingCart className="w-5 h-5" />
               </button>
