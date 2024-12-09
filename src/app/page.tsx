@@ -8,14 +8,11 @@ import HeroSection7 from "@/components/Home/HomePage/HeroSection7";
 import HeroSection8 from "@/components/Home/HomePage/HeroSection8";
 import HeroSection10 from "@/components/Home/HomePage/HeroSection10";
 import HeroSection11 from "@/components/Home/HomePage/HeroSection11";
-import Footer from "@/components/Home/layout/Footer";
 
 
 export default function Home() {
   return (
     <div  className="max-w-[1920px] bg-[#0D0D0D]">
-      {/* <Navbar /> */}
-
       <HeroSection1 />
 
       <HeroSection2 />
@@ -36,7 +33,6 @@ export default function Home() {
 
       <HeroSection11 />
 
-    <Footer />
 
     </div>
   );
