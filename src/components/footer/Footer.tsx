@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Twitter, Youtube, Instagram, Clock } from "lucide-react";
 
+
 export default function Footer() {
   return (
     <footer className="bg-[#111111] text-white relative overflow-hidden">
@@ -16,7 +17,7 @@ export default function Footer() {
               ?
             </h2>
             <p className="text-[#ffffff] text-[16px]">
-              Don't wait make a smart & logical quote here its pretty easy!
+              Don&apos;t wait make a smart & logical quote here its pretty easy!
             </p>
           </div>
           <div className="flex">
@@ -132,7 +133,7 @@ export default function Footer() {
           <div className="space-y-4">
             {[1, 2, 3].map((item) => (
               <div key={item} className="flex gap-4">
-                <img
+                <Image
                   src="/footerImage.jpeg"
                   alt="Blog thumbnail"
                   width={80}

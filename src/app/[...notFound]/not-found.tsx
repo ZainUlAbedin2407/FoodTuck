@@ -18,7 +18,7 @@ export default function NotFoundPage() {
         </div>
         <div>
           <p className="text-[16px] text-[#4f4f4f] text-center mb-6">
-            The page cannot be found! We'll have it figured out in no time.
+            The page cannot be found! We&rsquo;ll have it figured out in no time.
             Meanwhile, check out these fresh ideas:
           </p>
         </div>

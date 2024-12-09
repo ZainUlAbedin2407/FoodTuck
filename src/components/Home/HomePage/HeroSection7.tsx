@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const HeroSection7 = () => {
   // Data for the cards
@@ -47,7 +48,7 @@ const HeroSection7 = () => {
             className="relative flex flex-col items-center"
             style={{ width: `${element.cardWidth}px`, height: `${element.cardHeight}px` }}
           >
-            <img
+            <Image
               src={element.image}
               alt="Chef"
               className="w-full h-full object-cover"

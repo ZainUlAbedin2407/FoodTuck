@@ -1,4 +1,3 @@
-import Navbar from "@/components/Home/layout/Navbar";
 import HeroSection1 from "@/components/Home/HomePage/HeroSection1";
 import HeroSection2 from "@/components/Home/HomePage/HeroSection2";
 import HeroSection3 from "@/components/Home/HomePage/HeroSection3";
@@ -9,7 +8,7 @@ import HeroSection7 from "@/components/Home/HomePage/HeroSection7";
 import HeroSection8 from "@/components/Home/HomePage/HeroSection8";
 import HeroSection10 from "@/components/Home/HomePage/HeroSection10";
 import HeroSection11 from "@/components/Home/HomePage/HeroSection11";
-import Footer from "@/components/footer/Footer";
+import Footer from "@/components/Home/layout/Footer";
 
 
 export default function Home() {
@@ -37,6 +36,7 @@ export default function Home() {
 
       <HeroSection11 />
 
+    <Footer />
 
     </div>
   );

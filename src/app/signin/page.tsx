@@ -2,6 +2,8 @@
 
 import { Mail,Lock } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Image from 'next/image';
+
 
 export default function SignIn() {
   const router = useRouter();
@@ -70,7 +72,7 @@ export default function SignIn() {
         {/* Google and Apple Sign Up */}
         <div className="space-y-2">
           <button className="w-full flex items-center border justify-center text-[#1E1E1E] bg-transparent  py-2">
-            <img
+            <Image
               src="/google.png"
               alt="Google Icon"
               className="h-5 w-5 mr-2"
@@ -78,7 +80,7 @@ export default function SignIn() {
             Sign up with Google
           </button>
           <button className="w-full flex items-center border justify-center text-[#1E1E1E] bg-transparent  py-2">
-            <img
+            <Image
               src="/apple.png"
               alt="Apple Icon"
               className="h-5 w-5 mr-2"

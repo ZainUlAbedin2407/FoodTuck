@@ -1,12 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-import footer1 from "../../../public/Images/Mask Group.png";
-import footer2 from "../../../public/Images/Mask Group (1).png";
-import footer3 from "../../../public/Images/Mask Group (2).png";
-
-
-
 import { PiClockClockwiseBold } from "react-icons/pi";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -155,7 +149,7 @@ const Footer = () => {
             </h2>
             <ul className="text-background font-medium gap-[14px]">
               <li className="flex gap-[16.5px]">
-                <Image src={footer1} alt="Fod" />
+                <Image src={"/Images/Mask Group.png"} alt="Fod" />
 
                 <div className="ml-1">
                   <h2 className="text-[12px] text-[#FFFFFF] font-normal">
@@ -168,7 +162,7 @@ const Footer = () => {
               </li>
 
               <li className="flex gap-[16.5px] mt-[14px]">
-                <Image src={footer2} alt="Fod" />
+                <Image src={"/Images/Mask Group (1).png"} alt="Fod" />
 
                 <div className="ml-1">
                   <h2 className="text-[12px] text-[#FFFFFF] font-normal">
@@ -181,7 +175,7 @@ const Footer = () => {
               </li>
 
               <li className="flex gap-[16.5px] mt-[14px]">
-                <Image src={footer3} alt="Fod" />
+                <Image src={"/Images/Mask Group (2).png"} alt="Fod" />
 
                 <div className="ml-1">
                   <h2 className="text-[12px] text-[#FFFFFF] font-normal">

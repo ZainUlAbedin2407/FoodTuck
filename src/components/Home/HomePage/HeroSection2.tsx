@@ -1,8 +1,5 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
-// import card1 from "../../../public/Images/Hero2 card1.png"
-// import card2 from "../../../public/Images/Hero2 card2.png"
-// import card3 from "../../../public/Images/Hero2 Card3.png"
 import Image from "next/image";
 
 const HeroSection2 = () => {
